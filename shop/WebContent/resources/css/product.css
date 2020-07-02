@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+
+
+section .container  img {
+	width: 100%;
+}
+
+
+
+section .container .hit .row .thumbnail img {
+	opacity: 1.0;
+	filter: alpha(opacity = 50);
+}
+
+section .container .hit .row .thumbnail img:hover {
+	opacity: 0.5;
+	fileter: alpha(opactiry = 100);
+}
+
+section .container .product .row .thumbnail img {
+	opacity: 1.0;
+	filter: alpha(opacity = 50);
+}
+
+section .container .product .row .thumbnail img:hover {
+	opacity: 0.5;
+	fileter: alpha(opactiry = 100);
+}
+
+section .product .row ul li a {
+	text-decoration: none;
+	color: #808080;
+}
+
+
+
+
+
+section .row .category ul li a {
+	margin: 25px;
+	font-size: 15px;
+	color: #808080;
+	text-decoration: none;
+}
+
+section .row .category ul li a:hover {
+	color: #ccc;
+}
