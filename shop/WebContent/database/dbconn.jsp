@@ -13,8 +13,8 @@
 	
 		try{
 			String url = "jdbc:mysql://localhost:3306/shoppingmall";
-			String user = "root";
-			String passwd = "1234";
+			String user = "id";
+			String passwd = "pw";
 			
 			Class.forName("com.mysql.jdbc.Driver");
 			conn = DriverManager.getConnection(url,user,passwd);
