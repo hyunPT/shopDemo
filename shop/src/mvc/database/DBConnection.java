@@ -9,8 +9,8 @@ public class DBConnection {
 		Connection conn = null;
 		
 		String url = "jdbc:mysql://localhost:3306/shoppingmall";
-		String user ="root";
-		String password ="1234";
+		String user ="id";
+		String password ="pw";
 		
 		Class.forName("com.mysql.jdbc.Driver");
 		conn = DriverManager.getConnection(url,user,password);
