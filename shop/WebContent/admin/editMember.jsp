@@ -16,8 +16,8 @@
 		</div>
 	</div>
 	
-	<sql:setDataSource var="dataSource" url="jdbc:mysql://localhost:3306/shoppingmall"
-	driver="com.mysql.jdbc.Driver" user="root" password="1234"/>
+	<sql:setDataSource var="dataSource" url="jdbc:mysql://ip:port/database"
+	driver="com.mysql.jdbc.Driver" user="id" password="pw"/>
 	
 	<sql:query var="resultSet" dataSource="${dataSource }">
 		select * from member
